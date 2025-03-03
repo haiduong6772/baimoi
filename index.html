@@ -4,22 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>web team A</title>
+    <link rel="stylesheet" href="sytle.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./img/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./img/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./img/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./img/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./img/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./img/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./img/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./img/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./img/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./img/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="./img/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
   </head>
   <body>
-    <h1>học thẻ code</h1>
-    <p>Trên thế giới đa số con người là con người còn lại là súc vật</p>
+    <h1 style="color: blue">học thẻ code</h1>
+    <p>
+      Trên thế giới đa số con người là con người còn lại là
+      <span id="sucvat">súc vật</span>
+    </p>
     <p>chúng ta sử dụng thẻ &lt;h1&gt;&lt;/h1&gt; để viết tiêu đề</p>
     <pre>
 thẻ &lt;pre&gt;&lt;/pre&gt;   để   giữ nguyên    kiểu    định   dạng</pre
     >
-    <table>
+    <table id="table">
       <thead>
         <tr>
           <th>tên sản phẩm</th>
           <th>giá</th>
         </tr>
       </thead>
-      <hr />
       <tbody>
         <tr>
           <td>áo phông</td>
@@ -32,12 +108,11 @@ thẻ &lt;pre&gt;&lt;/pre&gt;   để   giữ nguyên    kiểu    định   d�
       </tbody>
       <tfoot>
         <tr>
-          <td>tổng giá</td>
-          <td>300000</td>
+          <td style="color: pink">tổng giá</td>
+          <td style="color: darkviolet">300000</td>
         </tr>
       </tfoot>
     </table>
-    <hr />
     <table>
       <thead>
         <tr>
@@ -53,17 +128,18 @@ thẻ &lt;pre&gt;&lt;/pre&gt;   để   giữ nguyên    kiểu    định   d�
           <td>10a1a</td>
         </tr>
         <tr>
-          <td>Nguyễn Thị B</td>
-          <td>nữ</td>
-          <td>10a4a</td>
+          <td class="demo">Nguyễn Thị B</td>
+          <td class="demo demo2">nữ</td>
+          <td class="demo">10a4a</td>
         </tr>
-        <tr>
-          <td>Đào Thị C</td>
-          <td>nữ</td>
-          <td>10a4b</td>
-        </tr>
+        <div>
+          <tr>
+            <td>Đào Thị C</td>
+            <td>nữ</td>
+            <td>10a4b</td>
+          </tr>
+        </div>
       </tbody>
     </table>
-    <hr />
   </body>
 </html>

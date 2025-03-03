@@ -1,0 +1,32 @@
+pre {
+  color: rgb(52, 42, 165);
+  border-bottom: 2px solid red;
+  border-bottom-width: 1px;
+}
+p {
+  color: blue;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  opacity: 100%;
+}
+thead {
+  color: palevioletred;
+}
+body {
+  background-image: url(./img/tải\ xuống.jpg);
+}
+#sucvat {
+  color: red;
+  font-size: initial;
+  border-bottom: 1px solid blue;
+}
+.demo {
+  color: red;
+}
+.demo.demo2 {
+  color: rgb(117, 3, 22);
+}
+
+div > tr {
+  color: red;
+}
